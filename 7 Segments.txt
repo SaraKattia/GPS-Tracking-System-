@@ -12,17 +12,17 @@ int arr[]={63 , 6 , 91 , 79 , 102 , 109 , 125 , 7 , 127 , 111 };
                         GPIO_PORTA_DATA_R =0XDF;
                         GPIO_PORTB_DATA_R = arr[digits[0]];
 
-                        SysTick_Wait(16000);
+                        SysTick_Delay(16000);
                         //pin-->9 =0 toggle 2nd screen
                         GPIO_PORTA_DATA_R =0XBF;
                         GPIO_PORTB_DATA_R = arr[digits[1]];
 
-                        SysTick_Wait(16000);
+                        SysTick_Delay(16000);
                         //pin-->12 =0 toggle 1st screen
                         GPIO_PORTA_DATA_R =0X7F;
                         GPIO_PORTB_DATA_R = arr[digits[2]];
 
-                        SysTick_Wait(16000);
+                        SysTick_Delay(16000);
                         GPIO_PORTA_DATA_R =0XFF;}
 
           }
