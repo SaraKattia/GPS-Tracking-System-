@@ -1,3 +1,4 @@
+	// not tested yet
 	char* init_Rx()
         {
         int i;
