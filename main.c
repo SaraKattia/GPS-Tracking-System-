@@ -22,6 +22,7 @@ int main() {
 
     //parsingfun(); returns latitude1 , longitude1
 
+	     
             char* ID ;
             char* Time;
             char* Longitude1;
