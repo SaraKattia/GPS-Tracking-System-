@@ -38,7 +38,7 @@ int main() {
             int i;
             for(i =0 ; i<100 , i++){
             while((UART1_FR_R&0X10)!=0){}
-            NMEA[i]=UART1_DATA_R;} //finishes when line break is found
+            NMEA[i]=UART7_DATA_R;} //finishes when line break is found
 
         if(NMEA[4]=='G' && NMEA[5]=='A'){   //check for GPGGA
             c=0;
